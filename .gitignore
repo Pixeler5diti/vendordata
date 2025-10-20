@@ -1,0 +1,24 @@
+# --- IDE and Environment Files ---
+# PyCharm/IntelliJ configuration folder
+.idea/
+
+# Python virtual environment (if you use one)
+venv/
+.venv/
+__pycache__/
+
+# Compiled Python files
+*.pyc
+.ipynb_checkpoints/
+
+# --- Project-Specific Files to Ignore ---
+# 1. Generated Database File (Crucial to ignore)
+inventory.db
+*.db
+
+# 2. Raw Data (Avoid committing large files)
+data/
+
+# 3. Temporary Output Files (Logs)
+logs/
+*.log
